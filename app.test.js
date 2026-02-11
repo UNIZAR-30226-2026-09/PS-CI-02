@@ -6,6 +6,6 @@ describe("/ (root endpoint)", () => {
     it("debería responder un hola mundo", async () => {
         const response = await request.get("/")
         expect(response.status).toBe(200)
-        expect(response.body.message).toBe("Hola Mundo!jajajajjajaja");        
+        expect(response.body.message).toBe("Hola Mundo!");        
     })
 }) 
